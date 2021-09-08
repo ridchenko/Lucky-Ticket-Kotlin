@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     fun CheckTicket(view: View) {
 
         val num = findViewById<EditText>(R.id.etTicketNumber).text.toString()
-        val picture = findViewById<ImageView>(R.id.imageView)
+        val picture = findViewById<ImageView>(R.id.light)
         val pictureGreen = getDrawable(R.drawable.green_light)
         val pictureRed = getDrawable(R.drawable.red_light)
 
