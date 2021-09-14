@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     @SuppressLint("UseCompatLoadingForDrawables")
-    fun CheckTicket(view: View) {
+    fun fnCheckTicket(view: View) {
 
         val num = findViewById<EditText>(R.id.etTicketNumber).text.toString()
         val picture = findViewById<ImageView>(R.id.light)
